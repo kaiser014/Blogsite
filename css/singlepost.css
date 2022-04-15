@@ -1,0 +1,113 @@
+
+/* /////////////////
+Single Post Page CSS Start From Here
+//////////////////*/
+.singlepost-section{
+    width: 100%;
+    padding: 50px 0;
+}
+.post-author{
+    margin-bottom: 30px;
+}
+.author-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.author-sp-details{
+    margin-top: 5px;
+}
+.author-sp-details h6{
+    color: #999;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.author-sp-details p{
+    color: #999;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.singleposts-header{
+    text-align: center;
+}
+.singleposts-header a{
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.singleposts-desc{
+    font-size: 18px !important;
+    color: #999;
+    text-align: center;
+}
+.singlepost-image img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.singlepost-details p{
+    font-size: 18px;
+    color: #999;
+    line-height: 1.6;
+}
+.singlepost-italic{
+    position: relative;
+}
+.singlepost-italic h5{
+    color: #999;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-left: 25px;
+    line-height: 1.5;
+}
+.singlepost-italic h5::after {
+    content: '';
+    width: 2px;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+}
+.sposts{
+    padding: 3px;
+}
+.sposts-img img{
+    border-radius: 5px;
+}
+.singlepost-details span{
+    width: 100%;
+    display: block;
+    border: 0.5px solid rgba(0,0,0,0.2);
+    margin-top: 50px;
+}
+.social-heading h3{
+    color: #999;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.sp-social-link span a{
+    color: #000;
+}
+.sp-social-link span a i{
+    padding-right: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.relatedpost-section{
+    padding-top: 100px;
+}
+.relatedpost-heading h4{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.relatedpost-content{
+    margin-bottom: 50px;
+}

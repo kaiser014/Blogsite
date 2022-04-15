@@ -1,0 +1,52 @@
+/* /////////////////
+Category Page CSS Start From Here
+//////////////////*/
+.relatedpost-heading p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #999;
+}
+.cat-post{
+    margin-bottom: 50px !important;
+}
+/* .pagination-bg{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+} */
+.post-pagination ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.round-shape{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgba(247,153,24,.1);
+    position: relative;
+    transition: .5s;
+}
+.round-shape span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.round-shape span a{
+    color: #f79918;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .5s;
+}
+.round-shape:hover{
+    background-color: #f79918;
+    transition: .5s;
+}
+.round-shape:hover a{
+    color: #fff;
+    transition: .5s;
+}
